@@ -1,4 +1,5 @@
 [versions]
+accompanistSystemuicontroller = "0.34.0"
 agp = "8.10.1"
 androidxHiltNavigationCompose = "1.1.0"
 androidxJunit = "1.2.1"
@@ -33,6 +34,7 @@ uiTestJunit4 = "1.8.2"
 uiTestManifest = "1.8.2"
 
 [libraries]
+accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
 androidx-espresso-core-v361 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
